@@ -1,0 +1,3 @@
+John: Let's finalize the design by Monday.
+Alice: I'll handle the UI part and send it by Sunday.
+Mark: I'll prepare the backend endpoints. Deadline Tuesday.
