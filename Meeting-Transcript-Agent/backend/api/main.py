@@ -34,7 +34,7 @@ def run_llm(prompt: str, max_tokens: int = 256) -> str:
 # ── HEALTHCHECK ───────────────────────────────────────────────────────────────
 @app.get("/")
 def health_check():
-    return {"status": "OK done!"}
+    return {"status": "OK"}
 
 # ── NLP ENDPOINT ──────────────────────────────────────────────────────────────
 @app.post("/api/summarize", response_model=SummaryOutput)
